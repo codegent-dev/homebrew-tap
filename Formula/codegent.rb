@@ -1,15 +1,15 @@
 class Codegent < Formula
   desc "AI-powered workflow orchestration CLI"
   homepage "https://codegent.dev"
-  version "0.0.5"
+  version "0.0.6"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/codegent-dev/cli-releases/releases/download/v0.0.5/codegent-darwin-arm64"
-      sha256 "aa68aef5d4b4589ce29ffd890ce692407fa7785f093b661ab4dfaa6ee6250b82"
+      url "https://github.com/codegent-dev/cli-releases/releases/download/v0.0.6/codegent-darwin-arm64"
+      sha256 "58142c7f5035a938d242614c688bf14f730d0fc5f82d1ca16cc10e12435a6291"
     else
-      url "https://github.com/codegent-dev/cli-releases/releases/download/v0.0.5/codegent-darwin-x64"
-      sha256 "016babbfcfbd2fb304e2a7406440cdfa88b9b594d0bbf7c929645c4317f9e638"
+      url "https://github.com/codegent-dev/cli-releases/releases/download/v0.0.6/codegent-darwin-x64"
+      sha256 "c08b7f96d18d1644bebd1df66bbb49ad5926fed462d754e9455cc88d24c72daf"
     end
   end
 
