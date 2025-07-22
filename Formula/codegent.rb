@@ -1,9 +1,9 @@
 class Codegent < Formula
-  desc "TypeScript monorepo for workflow orchestration with AI agents and command execution"
-  homepage "https://github.com/mattapperson/codegent"
-  url "https://github.com/mattapperson/codegent/releases/download/v{VERSION}/codegent-darwin-x64"
-  sha256 "{SHA256}"
-  license "MIT"
+  desc "AI-powered workflow orchestration CLI"
+  homepage "https://codegent.dev"
+  url "https://github.com/mattapperson/codegent/releases/download/v1.0.0/codegent-darwin-x64"
+  sha256 "37b0563b022574e25c3c277f04f2af3ac05540e5fc76b6f00df3f407c8428e1b"
+  version "1.0.0"
 
   def install
     bin.install "codegent-darwin-x64" => "codegent"
